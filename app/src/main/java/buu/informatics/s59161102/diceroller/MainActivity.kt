@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun reset(){
-
+        val resultText: TextView = findViewById(R.id.result_text)
+        resultText.text = "0"
     }
 }
